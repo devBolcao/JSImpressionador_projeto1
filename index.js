@@ -28,3 +28,11 @@ turboLogger("Colocando uma nova mensagem no branch novo", "red");
 
 // #trocando de branches - coloca -b, caso a branche não exista, assim criando
 // git checkout -b Alteracao_Mensagens
+
+// passos para o colocar o brench de volta ao codigo principal
+// git checkout main = seleciona novamente a main
+// git pull = atualiza a main, pois pode ter codigos de outros desenvolvedores
+// git chekout Alterecao_Mensagens = volta pro branche que esta rabalhando
+// git merge main = faz o merge com o main, resolve os conflitos se possuir e add, commit novamente
+// git checkout main = resolvido os conflito volta pro projeto principal, no exemplo o main
+// git merge Alterecao_Mensagens = faz o merge com o seu codigo, pois ja foi resolvido os conflitos
